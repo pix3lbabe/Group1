@@ -18,7 +18,7 @@ function setup() {
   let canvas = createCanvas(940, 660);
   canvas.parent('canvas-holder'); //  Attach canvas inside the webpage!
   
-  forestVideo = createVideo("forest.mp4"); // Load your forest background video
+  forestVideo = createVideo("forest2.mp4"); // Load your forest background video
   forestVideo.hide(); // Hide default video controls
   imageMode(CENTER);
   forestVideo.loop();
