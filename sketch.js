@@ -17,13 +17,11 @@ function preload() {
 function setup() {
   let canvas = createCanvas(940, 660);
   canvas.parent('canvas-holder'); //  Attach canvas inside the webpage!
-  
-forestVideo = createVideo("https://dl.dropboxusercontent.com/s/abc123xyz456/forest.mp4");
+forestVideo = createVideo("https://dl.dropboxusercontent.com/scl/fi/nxsooosmmfflz86soohcz/forest.mp4?rlkey=1tftxwbbcxym0umqwo1of4kc0&st=f8ht9lg7");
 forestVideo.hide();
 forestVideo.volume(0);
 forestVideo.loop();
 forestVideo.play();
-
 
   imageMode(CENTER)
 }
