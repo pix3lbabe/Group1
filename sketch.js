@@ -24,7 +24,7 @@ function setup() {
   forestVideo.loop();
   forestVideo.play();
 
-  imageMode(center)
+  imageMode(CENTER)
 }
 
 function draw() {
