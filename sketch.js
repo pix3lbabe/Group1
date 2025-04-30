@@ -49,7 +49,7 @@ function draw() {
 
 function mousePressed() {
   forestVideo.volume(1); // turn on sound
-  baseScale += 0.05; // Grow the fox when clicked
+  baseScale += 0.02; // Grow the fox when clicked
 }
 
 function keyPressed() {
