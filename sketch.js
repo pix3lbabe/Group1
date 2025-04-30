@@ -20,8 +20,11 @@ function setup() {
   
   forestVideo = createVideo("forest2.mp4"); // Load your forest background video
   forestVideo.hide(); // Hide default video controls
-  imageMode(CENTER);
+  forestVideo.volume(0);
   forestVideo.loop();
+  forestVideo.play();
+
+  imageMode(center)
 }
 
 function draw() {
