@@ -7,11 +7,11 @@ let angle1 = 0.0;
 let segLength = 50;
 
 // Base scale of fox
-let baseScale = 0.08; // Starting small
-let startingScale = 0.08; // Store original size for reset
+let baseScale = 0.05; // Starting small
+let startingScale = 0.05; // Store original size for reset
 
 function preload() {
-  fox = loadImage("fox2.png"); // Load your fox image
+  fox = loadImage("fox2.png"); //imagine file goes here
 }
 
 function setup() {
@@ -48,6 +48,7 @@ function draw() {
 }
 
 function mousePressed() {
+  forestVideo.volume(1); // turn on sound
   baseScale += 0.05; // Grow the fox when clicked
 }
 
